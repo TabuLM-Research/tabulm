@@ -1,0 +1,32 @@
+# Model checkpoints — too large for git (host on HuggingFace / GitHub Releases)
+*.pt
+*.bin
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+.venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets — never commit API keys
+secrets.txt
+api_key.txt

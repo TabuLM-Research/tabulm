@@ -1,0 +1,788 @@
+{
+  "model": "gpt-4o-mini",
+  "em": 0.6395,
+  "correct": 55,
+  "total": 86,
+  "skipped": 20,
+  "by_type": {
+    "aggregation": 0.2963,
+    "comparison": 0.7083,
+    "lookup": 0.8571
+  },
+  "records": [
+    {
+      "idx": 0,
+      "question": "Ni E.S. Groupe Scolaire Fawe ifite Abashoboye nini cyane muri aya makuru?",
+      "table": "national_exams_results_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "E.S. Groupe Scolaire Fawe",
+      "pred": "E.S. Groupe Scolaire Fawe",
+      "hit": 1
+    },
+    {
+      "idx": 1,
+      "question": "Ni Ibishyimbo cyangwa Uburo ifite Impinduka_%_2021 nyinshi?",
+      "table": "exports_trade_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Ibishyimbo",
+      "pred": "Uburo",
+      "hit": 0
+    },
+    {
+      "idx": 2,
+      "question": "Ni 2022 cyangwa 2022 ifite Impinduka_% nyinshi?",
+      "table": "tourism_2022.csv",
+      "answer_type": "comparison",
+      "gold": "2022",
+      "pred": "2022",
+      "hit": 1
+    },
+    {
+      "idx": 3,
+      "question": "Nyanza ifite Ubutaka_Bose_ha ingahe?",
+      "table": "land_use_agriculture_2022.csv",
+      "answer_type": "lookup",
+      "gold": "57700",
+      "pred": "57700",
+      "hit": 1
+    },
+    {
+      "idx": 5,
+      "question": "Ni Izuba cyangwa Amashanyarazi y'amazi ifite Isoko_kw_Ingufu_% nyinshi?",
+      "table": "energy_production_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Izuba",
+      "pred": "Amashanyarazi y'amazi",
+      "hit": 0
+    },
+    {
+      "idx": 7,
+      "question": "Ni iki gishushanyo Itumanahiro_ry_Inda_% cy'Rusizi?",
+      "table": "maternal_health_2022.csv",
+      "answer_type": "lookup",
+      "gold": "76.6",
+      "pred": "76.6",
+      "hit": 1
+    },
+    {
+      "idx": 8,
+      "question": "Ni Nyagatare cyangwa Rwamagana ifite Inzu nyinshi?",
+      "table": "districts_population_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Nyagatare",
+      "pred": "Nyagatare",
+      "hit": 1
+    },
+    {
+      "idx": 9,
+      "question": "Ni iki gishushanyo Amajyaruguru_% cy'2022?",
+      "table": "tourism_2022.csv",
+      "answer_type": "lookup",
+      "gold": "74.8",
+      "pred": "34.2",
+      "hit": 0
+    },
+    {
+      "idx": 10,
+      "question": "Ni iki gishushanyo Mobile_Money_% cy'Nyamagabe?",
+      "table": "mobile_internet_access_2022.csv",
+      "answer_type": "lookup",
+      "gold": "67.3",
+      "pred": "67.3",
+      "hit": 1
+    },
+    {
+      "idx": 11,
+      "question": "Vuga Yield_kg_per_ha ya Tomato.",
+      "table": "agriculture_2021.csv",
+      "answer_type": "lookup",
+      "gold": "24000",
+      "pred": "24000",
+      "hit": 1
+    },
+    {
+      "idx": 12,
+      "question": "Ni iki gifite Nzirankwagaga_% ntoya muri bose?",
+      "table": "national_exams_results_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "E.S. Groupe Scolaire Fawe",
+      "pred": "E.S. Groupe Scolaire Rulindo",
+      "hit": 0
+    },
+    {
+      "idx": 13,
+      "question": "Nyaruguru na Muhanga zifite Inguzanyo_Nshingiro_% zingahe buri kimwe?",
+      "table": "poverty_indicators_2021.csv",
+      "answer_type": "comparison",
+      "gold": "Muhanga",
+      "pred": "Muhanga",
+      "hit": 1
+    },
+    {
+      "idx": 14,
+      "question": "Ngororero ifite HPV_% ingahe?",
+      "table": "vaccination_coverage_2022.csv",
+      "answer_type": "lookup",
+      "gold": "74.2",
+      "pred": "74.2",
+      "hit": 1
+    },
+    {
+      "idx": 15,
+      "question": "Ni iki gifite Umubare_Toni nke cyane?",
+      "table": "exports_trade_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Uburo",
+      "pred": "Zhabu",
+      "hit": 0
+    },
+    {
+      "idx": 17,
+      "question": "Ni Gatsibo cyangwa Gasabo ifite Amashanyarazi_Igiti_% nyinshi?",
+      "table": "electricity_access_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Gasabo",
+      "pred": "Gasabo",
+      "hit": 1
+    },
+    {
+      "idx": 18,
+      "question": "Ni iki gifite Umusaruro_Miliyari_Frw ntoya muri bose?",
+      "table": "gdp_economic_sectors_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "2022",
+      "pred": "Inganda",
+      "hit": 0
+    },
+    {
+      "idx": 19,
+      "question": "Hagati ya Muhima District Hospital na Kirehe District Hospital, ni iyihe ifite Inzu_z'Abarwayi nini?",
+      "table": "health_facilities_2023.csv",
+      "answer_type": "comparison",
+      "gold": "Muhima District Hospital",
+      "pred": "Muhima District Hospital",
+      "hit": 1
+    },
+    {
+      "idx": 20,
+      "question": "Ni Ikawa cyangwa Ikawa ifite Igiciro_Frw_kg nyinshi?",
+      "table": "crop_production_season_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Ikawa",
+      "pred": "Ikawa",
+      "hit": 1
+    },
+    {
+      "idx": 21,
+      "question": "Ni iki gishushanyo Abaserukira_2022 cy'Rwanda Military Hospital?",
+      "table": "health_facilities_2023.csv",
+      "answer_type": "lookup",
+      "gold": "198412",
+      "pred": "198412",
+      "hit": 1
+    },
+    {
+      "idx": 22,
+      "question": "Vuga Uruhare_% ya 2022.",
+      "table": "tax_revenue_2022.csv",
+      "answer_type": "lookup",
+      "gold": "22.3",
+      "pred": "31.4",
+      "hit": 0
+    },
+    {
+      "idx": 24,
+      "question": "Ni iyihe n'iyihe Ibibaya_% ya Ruhango?",
+      "table": "land_use_agriculture_2022.csv",
+      "answer_type": "lookup",
+      "gold": "6.9",
+      "pred": "6.9",
+      "hit": 1
+    },
+    {
+      "idx": 26,
+      "question": "Ni iki gifite Inzu_Kalasi_1 ntoya muri bose?",
+      "table": "ubudehe_social_protection_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gicumbi",
+      "pred": "Rubavu",
+      "hit": 0
+    },
+    {
+      "idx": 27,
+      "question": "Vuga Abantu b'Abagore ya Karongi.",
+      "table": "census_2022.csv",
+      "answer_type": "lookup",
+      "gold": "175459",
+      "pred": "175459",
+      "hit": 1
+    },
+    {
+      "idx": 28,
+      "question": "Ni iki gifite Umwaka nke cyane?",
+      "table": "tourism_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "2022",
+      "pred": "2021",
+      "hit": 0
+    },
+    {
+      "idx": 29,
+      "question": "Ni iki gifite MW_Ushobora ntoya muri bose?",
+      "table": "energy_production_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Amashanyarazi y'amazi",
+      "pred": "Birembo",
+      "hit": 0
+    },
+    {
+      "idx": 30,
+      "question": "Ni akarere kahe kagira Amafaranga_Miliyari_Frw nini cyane?",
+      "table": "tax_revenue_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "2022",
+      "pred": "Umusoro_ku_mutungo",
+      "hit": 0
+    },
+    {
+      "idx": 32,
+      "question": "Ni iyihe n'iyihe Impinduka_%_2021 ya Cassiterite?",
+      "table": "exports_trade_2022.csv",
+      "answer_type": "lookup",
+      "gold": "+9.8",
+      "pred": "+9.8",
+      "hit": 1
+    },
+    {
+      "idx": 33,
+      "question": "Nyanza na Muhanga zifite Imodoka_Zarejewe zingahe buri kimwe?",
+      "table": "road_infrastructure_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Muhanga",
+      "pred": "Muhanga",
+      "hit": 1
+    },
+    {
+      "idx": 35,
+      "question": "Ni iyihe n'iyihe Bikomeye_B_% ya E.S. Groupe Scolaire Byumba?",
+      "table": "national_exams_results_2022.csv",
+      "answer_type": "lookup",
+      "gold": "34.2",
+      "pred": "34.2",
+      "hit": 1
+    },
+    {
+      "idx": 36,
+      "question": "Ni akarere kahe kagira Imyaka_25_34 nini cyane?",
+      "table": "age_structure_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Bugesera",
+      "hit": 0
+    },
+    {
+      "idx": 38,
+      "question": "Ni iki gifite Abarimu nke cyane?",
+      "table": "primary_schools_enrollment_2023.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Burera",
+      "hit": 0
+    },
+    {
+      "idx": 39,
+      "question": "Hagati ya Ngoma na Huye, ni iyihe ifite Umubare_Abagabo nini?",
+      "table": "districts_population_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Huye",
+      "pred": "Ngoma",
+      "hit": 0
+    },
+    {
+      "idx": 40,
+      "question": "Ni Nyamagabe cyangwa Nyaruguru ifite Inguzanyo_Miliyari_Frw nyinshi?",
+      "table": "microfinance_cooperatives_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Nyamagabe",
+      "pred": "Nyaruguru",
+      "hit": 0
+    },
+    {
+      "idx": 41,
+      "question": "Vuga Uruhare_GDP_% ya 2022.",
+      "table": "gdp_economic_sectors_2022.csv",
+      "answer_type": "lookup",
+      "gold": "25.8",
+      "pred": "25.8",
+      "hit": 1
+    },
+    {
+      "idx": 43,
+      "question": "Ni iki gifite Umusaruro_MUSD nke cyane?",
+      "table": "tourism_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "2022",
+      "pred": "Kigali",
+      "hit": 0
+    },
+    {
+      "idx": 44,
+      "question": "Ni Gasabo ifite Internet_% nini cyane muri aya makuru?",
+      "table": "mobile_internet_access_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Gasabo",
+      "hit": 1
+    },
+    {
+      "idx": 45,
+      "question": "Ni Gicumbi cyangwa Rwamagana ifite Amafaranga_Koporatifu_% nyinshi?",
+      "table": "mobile_internet_access_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Gicumbi",
+      "pred": "Rwamagana",
+      "hit": 0
+    },
+    {
+      "idx": 47,
+      "question": "Vuga Umubare_Toni ya Zhabu.",
+      "table": "exports_trade_2022.csv",
+      "answer_type": "lookup",
+      "gold": "167 kg",
+      "pred": "167 kg",
+      "hit": 1
+    },
+    {
+      "idx": 48,
+      "question": "Hagati ya Ngororero na Kicukiro, ni iyihe ifite Abaganga_Bafasha_Kubyara_% nini?",
+      "table": "maternal_health_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Kicukiro",
+      "pred": "Kicukiro",
+      "hit": 1
+    },
+    {
+      "idx": 49,
+      "question": "Isogi na Tomato zifite Area_ha zingahe buri kimwe?",
+      "table": "agriculture_2021.csv",
+      "answer_type": "comparison",
+      "gold": "Isogi",
+      "pred": "Isogi",
+      "hit": 1
+    },
+    {
+      "idx": 50,
+      "question": "Hagati ya Ruhango District Hospital na Nyamasheke District Hospital, ni iyihe ifite Infirmiyeri nini?",
+      "table": "health_facilities_2023.csv",
+      "answer_type": "comparison",
+      "gold": "Nyamasheke District Hospital",
+      "pred": "Ruhango District Hospital",
+      "hit": 0
+    },
+    {
+      "idx": 52,
+      "question": "Vuga Abana_Bavutse_Muzima_% ya Nyamagabe.",
+      "table": "maternal_health_2022.csv",
+      "answer_type": "lookup",
+      "gold": "92.4",
+      "pred": "92.4",
+      "hit": 1
+    },
+    {
+      "idx": 53,
+      "question": "Ni Nyaruguru ifite Amashyamba_% nini cyane muri aya makuru?",
+      "table": "land_use_agriculture_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Nyaruguru",
+      "pred": "Nyaruguru",
+      "hit": 1
+    },
+    {
+      "idx": 55,
+      "question": "Ni iki gishushanyo Imyaka_25_34 cy'Nyarugenge?",
+      "table": "age_structure_2022.csv",
+      "answer_type": "lookup",
+      "gold": "65234",
+      "pred": "65234",
+      "hit": 1
+    },
+    {
+      "idx": 56,
+      "question": "Ni E.S. Lycée de Kigali ifite Umubare w'Abarimu nini cyane muri aya makuru?",
+      "table": "schools_2023.csv",
+      "answer_type": "aggregation",
+      "gold": "E.S. Lycée de Kigali",
+      "pred": "E.S. Lycée de Kigali",
+      "hit": 1
+    },
+    {
+      "idx": 57,
+      "question": "Izuba ifite Isoko_kw_Ingufu_% ingahe?",
+      "table": "energy_production_2022.csv",
+      "answer_type": "lookup",
+      "gold": "1.7",
+      "pred": "1.7",
+      "hit": 1
+    },
+    {
+      "idx": 58,
+      "question": "Ni iki gishushanyo Abaturage_Bafite_Telefoni cy'Kamonyi?",
+      "table": "mobile_internet_access_2022.csv",
+      "answer_type": "lookup",
+      "gold": "243012",
+      "pred": "243012",
+      "hit": 1
+    },
+    {
+      "idx": 59,
+      "question": "Ni 2022 ifite Imirimo_Bihumbi nini cyane muri aya makuru?",
+      "table": "gdp_economic_sectors_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "2022",
+      "pred": "Ubuhinzi",
+      "hit": 0
+    },
+    {
+      "idx": 60,
+      "question": "Ni iki gishushanyo Intego_Miliyari_Frw cy'2022?",
+      "table": "tax_revenue_2022.csv",
+      "answer_type": "lookup",
+      "gold": "38.9",
+      "pred": "1189.3",
+      "hit": 0
+    },
+    {
+      "idx": 61,
+      "question": "Ni iyihe n'iyihe Impinduka_% ya 2018?",
+      "table": "gdp_economic_sectors_2022.csv",
+      "answer_type": "lookup",
+      "gold": "9.8",
+      "pred": "4.8",
+      "hit": 0
+    },
+    {
+      "idx": 62,
+      "question": "Ni iki gishushanyo Yield_kg_per_ha cy'Ibigori?",
+      "table": "agriculture_2021.csv",
+      "answer_type": "lookup",
+      "gold": "4104",
+      "pred": "4104",
+      "hit": 1
+    },
+    {
+      "idx": 63,
+      "question": "Rwamagana District Hospital ifite Inzu_z'Abarwayi ingahe?",
+      "table": "health_facilities_2023.csv",
+      "answer_type": "lookup",
+      "gold": "150",
+      "pred": "150",
+      "hit": 1
+    },
+    {
+      "idx": 64,
+      "question": "Ni iki gishushanyo Yield_kg_per_ha cy'Ingano?",
+      "table": "agriculture_2021.csv",
+      "answer_type": "lookup",
+      "gold": "1888",
+      "pred": "1888",
+      "hit": 1
+    },
+    {
+      "idx": 65,
+      "question": "Ni iki gifite Abantu b'Abagabo ntoya muri bose?",
+      "table": "census_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Kigali",
+      "pred": "Huye",
+      "hit": 0
+    },
+    {
+      "idx": 66,
+      "question": "Vuga Umusaruro_Miliyari_Frw ya 2020.",
+      "table": "gdp_economic_sectors_2022.csv",
+      "answer_type": "lookup",
+      "gold": "2990.3",
+      "pred": "2990.3",
+      "hit": 1
+    },
+    {
+      "idx": 67,
+      "question": "Ni iki gifite Imihanda_Myiza_% nke cyane?",
+      "table": "road_infrastructure_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Nyarugenge",
+      "pred": "Gakenke",
+      "hit": 0
+    },
+    {
+      "idx": 68,
+      "question": "Ni akarere kahe kagira Amashanyarazi_Igiti_% nini cyane?",
+      "table": "electricity_access_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Gasabo",
+      "hit": 1
+    },
+    {
+      "idx": 69,
+      "question": "Ni Ibigori cyangwa Ibirayi ifite Ubutaka_ha nyinshi?",
+      "table": "crop_production_season_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Ibigori",
+      "pred": "Ibigori",
+      "hit": 1
+    },
+    {
+      "idx": 72,
+      "question": "Ni iki gifite Abafashwa_Malariya_% ntoya muri bose?",
+      "table": "hiv_malaria_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Gakenke",
+      "hit": 0
+    },
+    {
+      "idx": 74,
+      "question": "Ni iki gifite Ubutaka_ha nke cyane?",
+      "table": "crop_production_season_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Ibigori",
+      "pred": "Ibigori",
+      "hit": 1
+    },
+    {
+      "idx": 75,
+      "question": "Ni iki gifite Nzirankwagaga ntoya muri bose?",
+      "table": "schools_2023.csv",
+      "answer_type": "aggregation",
+      "gold": "E.S. Groupe Scolaire Fawe",
+      "pred": "G.S. Kanombe",
+      "hit": 0
+    },
+    {
+      "idx": 76,
+      "question": "Ni akarere kahe kagira Ubushyuhe_Hasi_C nini cyane?",
+      "table": "rainfall_climate_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Nyagatare",
+      "pred": "Nyaruguru",
+      "hit": 0
+    },
+    {
+      "idx": 77,
+      "question": "Rulindo ifite Uburezi_Abagabo_% ingahe?",
+      "table": "adult_literacy_education_2022.csv",
+      "answer_type": "lookup",
+      "gold": "73.4",
+      "pred": "73.4",
+      "hit": 1
+    },
+    {
+      "idx": 78,
+      "question": "Ni iyihe n'iyihe Amajyaruguru_% ya 2021?",
+      "table": "tourism_2022.csv",
+      "answer_type": "lookup",
+      "gold": "33.2",
+      "pred": "Amajyaruguru_% ya 2021 ni 29.8, 33.2, 37.1, 36.4.",
+      "hit": 0
+    },
+    {
+      "idx": 79,
+      "question": "G.S. Gikondo ifite Umubare w'Abarimu ingahe?",
+      "table": "schools_2023.csv",
+      "answer_type": "lookup",
+      "gold": "43",
+      "pred": "43",
+      "hit": 1
+    },
+    {
+      "idx": 80,
+      "question": "Ni akarere kahe kagira Ubwiherero_Bwizewe_% nini cyane?",
+      "table": "water_sanitation_access_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Gasabo",
+      "hit": 1
+    },
+    {
+      "idx": 82,
+      "question": "Gicumbi na Musanze zifite Ubutaka_Buhinzwe_% zingahe buri kimwe?",
+      "table": "land_use_agriculture_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Gicumbi",
+      "pred": "Gicumbi",
+      "hit": 1
+    },
+    {
+      "idx": 83,
+      "question": "Ni iyihe n'iyihe MW_Isoko ya Kirehe?",
+      "table": "electricity_access_2022.csv",
+      "answer_type": "lookup",
+      "gold": "16.1",
+      "pred": "16.1",
+      "hit": 1
+    },
+    {
+      "idx": 84,
+      "question": "Ni iki gifite Indwara_za_Nzoka_% nke cyane?",
+      "table": "hiv_malaria_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Nyaruguru",
+      "pred": "Rulindo",
+      "hit": 0
+    },
+    {
+      "idx": 85,
+      "question": "Ni iyihe n'iyihe Abaganga_Bafasha_Kubyara_% ya Burera?",
+      "table": "maternal_health_2022.csv",
+      "answer_type": "lookup",
+      "gold": "83.2",
+      "pred": "83.2",
+      "hit": 1
+    },
+    {
+      "idx": 86,
+      "question": "Ni Nyagatare cyangwa Musanze ifite Amashuri_Abanza nyinshi?",
+      "table": "primary_schools_enrollment_2023.csv",
+      "answer_type": "comparison",
+      "gold": "Nyagatare",
+      "pred": "Musanze",
+      "hit": 0
+    },
+    {
+      "idx": 87,
+      "question": "Ni E.S. Groupe Scolaire Fawe cyangwa E.S. Groupe Scolaire Ruhango ifite Nzirankwagaga_% nyinshi?",
+      "table": "national_exams_results_2022.csv",
+      "answer_type": "comparison",
+      "gold": "E.S. Groupe Scolaire Fawe",
+      "pred": "E.S. Groupe Scolaire Fawe",
+      "hit": 1
+    },
+    {
+      "idx": 89,
+      "question": "Nyagatare ifite Inzu ingahe?",
+      "table": "districts_population_2022.csv",
+      "answer_type": "lookup",
+      "gold": "95612",
+      "pred": "95612",
+      "hit": 1
+    },
+    {
+      "idx": 90,
+      "question": "Ni Gasabo ifite Itumanahiro_ry_Inda_% nini cyane muri aya makuru?",
+      "table": "maternal_health_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Gasabo",
+      "hit": 1
+    },
+    {
+      "idx": 93,
+      "question": "Karongi na Gatsibo zifite Ubutaka_Butabonetse_% zingahe buri kimwe?",
+      "table": "land_use_agriculture_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Gatsibo",
+      "pred": "Gatsibo",
+      "hit": 1
+    },
+    {
+      "idx": 94,
+      "question": "Ni Rusizi cyangwa Ngororero ifite Ubuso_km2 nyinshi?",
+      "table": "districts_population_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Rusizi",
+      "pred": "Rusizi",
+      "hit": 1
+    },
+    {
+      "idx": 95,
+      "question": "Ni iyihe n'iyihe Imyaka_65_hejuru ya Nyagatare?",
+      "table": "age_structure_2022.csv",
+      "answer_type": "lookup",
+      "gold": "31608",
+      "pred": "31608",
+      "hit": 1
+    },
+    {
+      "idx": 96,
+      "question": "Hagati ya Rulindo na Gicumbi, ni iyihe ifite Imyaka_65_hejuru nini?",
+      "table": "age_structure_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Gicumbi",
+      "pred": "Gicumbi",
+      "hit": 1
+    },
+    {
+      "idx": 97,
+      "question": "Ni 2022 ifite Amafaranga_Miliyari_Frw nini cyane muri aya makuru?",
+      "table": "tax_revenue_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "2022",
+      "pred": "Umusoro_ku_mutungo",
+      "hit": 0
+    },
+    {
+      "idx": 98,
+      "question": "Gicumbi ifite Ubuso_km2 ingahe?",
+      "table": "districts_population_2022.csv",
+      "answer_type": "lookup",
+      "gold": "815",
+      "pred": "815",
+      "hit": 1
+    },
+    {
+      "idx": 99,
+      "question": "Ni iyihe n'iyihe Amashanyarazi_Izuba_% ya Karongi?",
+      "table": "electricity_access_2022.csv",
+      "answer_type": "lookup",
+      "gold": "11.1",
+      "pred": "11.1",
+      "hit": 1
+    },
+    {
+      "idx": 100,
+      "question": "Ni iyihe n'iyihe Agaciro_MUSD ya Tungsten?",
+      "table": "exports_trade_2022.csv",
+      "answer_type": "lookup",
+      "gold": "98.2",
+      "pred": "98.2",
+      "hit": 1
+    },
+    {
+      "idx": 102,
+      "question": "Vuga Ingurube ya Rutsiro.",
+      "table": "livestock_2022.csv",
+      "answer_type": "lookup",
+      "gold": "8634",
+      "pred": "8634",
+      "hit": 1
+    },
+    {
+      "idx": 103,
+      "question": "Hagati ya Gatsibo na Gakenke, ni iyihe ifite Imirimo_ya_ANC_4plus_% nini?",
+      "table": "maternal_health_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Gakenke",
+      "pred": "Gakenke",
+      "hit": 1
+    },
+    {
+      "idx": 104,
+      "question": "Nyagatare na Gisagara zifite Imyaka_5_14 zingahe buri kimwe?",
+      "table": "age_structure_2022.csv",
+      "answer_type": "comparison",
+      "gold": "Nyagatare",
+      "pred": "Nyagatare",
+      "hit": 1
+    },
+    {
+      "idx": 105,
+      "question": "Ni iki gifite Bose_% nke cyane?",
+      "table": "electricity_access_2022.csv",
+      "answer_type": "aggregation",
+      "gold": "Gasabo",
+      "pred": "Nyaruguru",
+      "hit": 0
+    }
+  ]
+}
